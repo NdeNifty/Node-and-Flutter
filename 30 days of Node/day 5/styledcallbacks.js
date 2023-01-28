@@ -6,7 +6,7 @@ function nSCallback(error, data) {
     console.error('Error : ', error);
     return;
   }
-  console.log(data);
+  console.log("File Content : " +data);
 }
 fs.readFile('somefile.txt', nSCallback);
 fs.readFile('file_does_not_exists', nSCallback);						

@@ -4,8 +4,8 @@
 //then an err message will be console.
 //otherwise data will be printed
 var fs=require('fs');
-
-fs.readFile('message.txt', (err, data) => {
+//We put a wrong filename (wrong spelling) so we coud see the error on the console
+fs.readFile('somefil.txt', (err, data) => {
 	if (err) 
 		return console.error(err);
 		

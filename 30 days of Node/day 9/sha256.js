@@ -5,7 +5,7 @@
  var hash = crypto.createHash('sha256');
  
  //passing the data to be hashed
- data = hash.update('Testinga a Hash', 'utf-8');
+ data = hash.update('Testing a sha256 hash', 'utf-8');
  
  //Creating the hash in the required format
  gen_hash= data.digest('hex');

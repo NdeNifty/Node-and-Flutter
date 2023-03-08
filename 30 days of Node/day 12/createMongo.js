@@ -1,7 +1,7 @@
 //Including the required packages
 var mongo = require('mongodb').MongoClient;
 //Establishing the connection
-var new_db = "mongodb://localhost:27017/demo_db1"
+var new_db = "mongodb://127.0.0.1:27017/demo_db1"
 
 //establishing the connection
 mongo.connect(new_db ,(error , db) => {
